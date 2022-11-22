@@ -68,6 +68,7 @@ h3{
     float: left;
     width: 30%;
     height: 30%;
+    
 }
 #text1{
     background-color: darkgrey;
@@ -75,4 +76,5 @@ h3{
     padding: 20px;
     text-align: justify;
     text-indent: 5%;
+    margin: 1%;
 }
