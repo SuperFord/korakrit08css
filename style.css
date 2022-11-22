@@ -69,3 +69,10 @@ h3{
     width: 30%;
     height: 30%;
 }
+#text1{
+    background-color: darkgrey;
+    border: 5px solid brown;
+    padding: 20px;
+    text-align: justify;
+    text-indent: 5%;
+}
