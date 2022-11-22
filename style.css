@@ -1,0 +1,71 @@
+h3{
+    font-size: 30px;
+    text-align: right;
+    color: rgb(173, 108, 108);
+}
+
+.nav{
+    list-style: none;
+    background-color: cornsilk;
+    text-align: center;
+}
+.nav li{ /* Csscomment*/
+    display: inline-block;
+    padding: 20px;
+    font-size: 20 px;
+}
+.bgcolor{
+    background-color: blueviolet;
+}
+#bgurl{
+    /* background-image: url(3.jpg); */
+    text-align: center;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+
+}
+#bgurl:hover{
+    opacity: 1;
+    background-color: bisque;
+}
+#bgurl img{
+    width : 600px;
+    height: 600Px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+#hover{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    transition: width 2s;
+    float: left;
+}
+#hover:hover{
+    width: 300px;
+    background-color: blueviolet;
+    /* background-image: url(2.jpg); */
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+#text{
+    background-color: darkgrey;
+    border: 5px solid brown;
+    padding: 20px;
+    text-align: justify;
+    text-indent: 5%;
+    float: left;
+    width: 30%;
+    height: 30%;
+}
